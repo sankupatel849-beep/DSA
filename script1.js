@@ -317,43 +317,108 @@
 //     // let a = 10;
 //     // let b = 20;
 //     console.log(a+b);
-    
+
 // }
 // sum(10,9)
 // sum(19,20)
 
 
 // let store = function (a,b=22) {
-    
+
 //    return a+b;
-   
+
 
 // }
 // let  a = store(10)
 // console.log(a);
 
 
+// function sum(a, b) {
+//     console.log(a + b);
+
+// }
+// sum(9, 10)
+// sum(667, 889)
+
+// function print(first,callback) {
+//     console.log("first");
+//     callback();
+// }
+// print ("first" () => console.log("hello dosto"));
+
+
+// function greet() {
+//     console.log("hello world");
+    
+// }
+// greet()
+
+
+// function sum(a,b) {
+//     console.log(a+b);
+    
+// }
+// sum(10,20)
+
+
+// function square(num) {
+//      console.log(num*num);
+//     return(num);
+   
+    
+// }
+// square(5)
+
+
+// function value(num) {
+//     if (num%2===0) {
+//         console.log("Even");
+        
+//     }else {
+//         console.log("odd");
+        
+//     }
+    
+// }
+// value(10)
 
 
 
+// function largest(a,b) {
+//   if (a>b) {
+//     console.log("A is greater");
+    
+//   }else {
+//     console.log("B is greater");
+    
+//   }
+    
+// }largest(10,20)
 
 
+//  function fac(n) {
+//     let fac = 1;
+//     for (let index = n; index>=1; index--) {
+//         fac*=index
+          
+        
+//     }
+//    return fac
+// }
+// console.log(fac(5));
+// fac()
 
 
+// function multiply(a,b) {
+//     console.log(a*b);
+    
+// }
+// multiply(4,6)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// const  a = () =>  {
+//     console.log();
+    
+// }
 
 
 
