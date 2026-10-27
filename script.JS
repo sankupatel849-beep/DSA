@@ -25,13 +25,13 @@
 
 
 
-//let digit = 123 ; 
-//console.log(digit % 10);
-//console.log(Math.floor (123/10));
+// let digit = 123 ; 
+// console.log(digit % 10);
+// console.log(Math.floor (123/10));
 
 
 
-//let n = 12345 ;
+// let n = 12345 ;
 //  let count = 0 ;
 //  let sum = 0 ;// 
 
@@ -41,7 +41,7 @@
 
 
 
-//}//console.log(count);
+// }//console.log(count);
 // console.log(sum);
 
 //let unit = 250 ;

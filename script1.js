@@ -421,4 +421,76 @@
 // }
 
 
+// for (let index = 0; index <=20; index++) {
+//     if (index%2===0) {
+//         console.log(index);
+        
+//     }
+    
+// }
+
+
+// let digit = 123 ; 
+// console.log(digit % 10);
+// console.log(Math.floor (123/10));
+
+
+
+// let n = 12345 ;
+//  let count = 0 ;
+// //  let sum = 0 ;
+
+//  for (let n=12345; n>0; n = Math.floor(n/10)) {
+//         let lastDigit = n%10;
+//         sum+=lastDigit;
+
+
+
+// }
+// console.log(count);
+// // console.log(sum);
+
+
+
+// function name(params) {
+//     console.log("hyyyy");
+    
+// }
+// name()
+
+// immediately invoked function expression----IIFE
+
+//rest----
+// function name(b,c,...a) {
+//     console.log(b,c,a);
+    
+// }
+// name(2,3,4,5,6)
+
+
+// let  a = [2,3,4];
+// let  b = [12,24,32];
+
+// function name(a,b) {
+//     console.log(...a,...b);
+    
+// }
+// name()
+
+
+
+// let a = [1,2,3];
+// let b = a;
+
+// b.push(4);
+// console.log(a);
+// console.log(b);
+
+
+// let a = [1,2,3];
+// let b = [...a];
+
+// b.push(4);
+// console.log(a);
+// console.log(b);
 
