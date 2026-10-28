@@ -349,14 +349,14 @@
 
 // function greet() {
 //     console.log("hello world");
-    
+
 // }
 // greet()
 
 
 // function sum(a,b) {
 //     console.log(a+b);
-    
+
 // }
 // sum(10,20)
 
@@ -364,8 +364,8 @@
 // function square(num) {
 //      console.log(num*num);
 //     return(num);
-   
-    
+
+
 // }
 // square(5)
 
@@ -373,12 +373,12 @@
 // function value(num) {
 //     if (num%2===0) {
 //         console.log("Even");
-        
+
 //     }else {
 //         console.log("odd");
-        
+
 //     }
-    
+
 // }
 // value(10)
 
@@ -387,12 +387,12 @@
 // function largest(a,b) {
 //   if (a>b) {
 //     console.log("A is greater");
-    
+
 //   }else {
 //     console.log("B is greater");
-    
+
 //   }
-    
+
 // }largest(10,20)
 
 
@@ -400,8 +400,8 @@
 //     let fac = 1;
 //     for (let index = n; index>=1; index--) {
 //         fac*=index
-          
-        
+
+
 //     }
 //    return fac
 // }
@@ -411,22 +411,22 @@
 
 // function multiply(a,b) {
 //     console.log(a*b);
-    
+
 // }
 // multiply(4,6)
 
 // const  a = () =>  {
 //     console.log();
-    
+
 // }
 
 
 // for (let index = 0; index <=20; index++) {
 //     if (index%2===0) {
 //         console.log(index);
-        
+
 //     }
-    
+
 // }
 
 
@@ -454,7 +454,7 @@
 
 // function name(params) {
 //     console.log("hyyyy");
-    
+
 // }
 // name()
 
@@ -463,7 +463,7 @@
 //rest----
 // function name(b,c,...a) {
 //     console.log(b,c,a);
-    
+
 // }
 // name(2,3,4,5,6)
 
@@ -473,7 +473,7 @@
 
 // function name(a,b) {
 //     console.log(...a,...b);
-    
+
 // }
 // name()
 
@@ -493,4 +493,145 @@
 // b.push(4);
 // console.log(a);
 // console.log(b);
+
+
+
+//object----
+
+
+// const student = {
+//     name : "ankit",
+//     age :22
+// }
+
+
+// console.log(student);
+
+
+
+// const student = {
+//     name : "ankit",
+//     age :22
+// }
+
+// student.college = "oct";
+// console.log(student);
+
+
+
+// const student = {
+//     name : "ankit",
+//     age :22
+// }
+
+// student.name = "oggy";
+// console.log(student.name);
+
+
+
+// const student = {
+//     name : "ankit",
+//     age :22,
+//     marks: 34,
+//     address: {
+//         city:"bhopal",
+//     }
+// }
+
+// console.log(student.address.city);
+
+
+
+// const student = {
+//     name : "ankit",
+//     age :22,
+//     marks: 34,
+//     address: {
+//         city:"bhopal",
+//     }
+// }
+// delete student.address.city
+// console.log(student);
+
+
+// let student = [
+
+//     { name: "ankit" },
+
+//     { age: 22 },
+
+//     { marks: 34 }
+
+
+// ];
+
+// console.log(student[1]);
+
+
+// const student = {
+//     name: "ankit",
+//     age: 22,
+//     marks: 34,
+//     address: {
+//         city: "bhopal",
+//     }
+// }
+// const keys = Object.keys(student);
+// console.log(keys);
+// console.log(keys.length);
+
+
+// const student = {
+//     name: "ankit",
+//     age: 22,
+//     marks: 34,
+//     address: {
+//         city: "bhopal",
+//     }
+// }
+// const keys = Object.values(student);
+// console.log(keys);
+
+
+// const student = {
+//     name: "ankit",
+//     age: 22,
+//     marks: 34,
+//     address: {
+//         city: "bhopal",
+//     }
+// }
+// const keys = Object.entries(student);
+// console.log(keys);
+// console.log(keys.length);
+
+
+
+// const student = {
+//     name: "ankit",
+//     age: 22,
+//     marks: 34,
+//     address: {
+//         city: "bhopal",
+//     }
+// }
+// const keys = Object.values(student);
+// console.log(keys);
+
+
+
+// let student = {
+//     name: "sanku",
+//     age:22,
+//     marks:33
+// }
+// const {age,name}=student;
+// console.log( "NAME=",name);
+// console.log("AGE =", age);
+// console.log(address);
+
+
+// const a = undefined;
+// console.log(a?? "bhai a null h");
+
 
