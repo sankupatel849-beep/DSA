@@ -635,3 +635,130 @@
 // console.log(a?? "bhai a null h");
 
 
+// const student1 = {
+//     name : "Sanku",
+//     address: {
+//         city: "Bhopal",
+//     }
+
+// }
+// console.log(student1.name);
+
+
+// const student2 = structuredClone(student1);
+// student2.name = "Rahul";
+// console.log(student1.name);
+// console.log(student2.name);
+
+
+// student2.address.city = "Indore";
+// console.log(student1.address.city);
+
+
+
+// const student1 = {
+//     name: "Sanku",
+//     function (params) {
+//     console.log(this.name);
+    
+//   }
+
+// }
+// student1.function()
+// console.log(student1);
+
+// const student = {
+//   firstName: "Rahul",
+//   get fullName() {
+//    console.log(this.firstName);
+   
+//   }
+// };
+
+// console.log(student.firstName);
+
+
+
+// const student = {
+//   firstName: "Rahul",
+ 
+//   set fullName(v) {
+//     this.firstName = v;
+//     console.log(this.firstName);
+    
+    
+    
+    
+
+//   }
+// };
+// student.fullName ="ram";
+
+
+
+// const student = {
+//   firstName:3,
+ 
+//   set fullName(v) {
+//     if(v<0){
+//         console.log("negative value accept nhi he");
+        
+//     }else{
+//       this.firstName = v;
+//       console.log(this.firstName);
+//     }
+    
+//     }
+// };
+// student.fullName =2;
+
+
+
+// const stud = {
+//       name:"hardik",
+//       age: 34,
+//       marks:77
+
+// }
+//  for (const key in stud) {
+//  if (!Object.hasOwn(stud, key)) continue;
+    
+//    console.log(key);
+   
+//  }
+
+
+
+// const stud = {
+//       name:"hardik",
+//       age: 34,
+//       marks:77
+
+// }
+// for (const key in stud) {
+    
+// console.log(key,stud[key]);
+// }
+
+
+
+// const a = ["rohit",  "abhi", "krishn" ,"mohit" ]
+
+// for (const element of a) {
+//    console.log(element);
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
