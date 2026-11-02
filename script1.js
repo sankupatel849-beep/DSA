@@ -782,7 +782,7 @@
 // }
 
 let h3 = document.getElementsByTagName("h3");
-    for (let index = 0; index <=3; index++) {
+    for (let index = 0; index <=4; index++) {
         h3[index].style.color = "red";
         
     };
