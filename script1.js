@@ -752,6 +752,43 @@
 
 
 
+// let Box = document.getElementById("Box");
+// Box.addEventListener("click", function () {
+//     Box.style.color = "red";
+// });
+
+
+// let Box2 = document.getElementById("Box2");
+// Box2.addEventListener("click", function () {
+//     Box2.style.color = "Blue";
+//     Box2.innerText = "Welcome to our classes! we are happy to have you here.";
+// });
+
+
+// let dabba = document.getElementsByClassName("dabba");
+// for (let index = 0; index <=4; index++) {
+//     const element = dabba[index];
+//     element.addEventListener("click", function () {
+//         element.style.color = "green";
+//         element.innerText = " we welcoming you !when will you come to our classes?";
+//         element.style.padding = "20px";
+//         element.style.margin = "10px";
+//         element.style.border = "2px solid black";
+//         element.style.backgroundColor = "black";
+//         element.style.borderRadius = "10px";
+//         element.style.color = "white";
+
+//     });
+// }
+
+let h3 = document.getElementsByTagName("h3");
+    for (let index = 0; index <=3; index++) {
+        h3[index].style.color = "red";
+        
+    };
+
+
+
 
 
 
