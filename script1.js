@@ -660,7 +660,7 @@
 //     name: "Sanku",
 //     function (params) {
 //     console.log(this.name);
-    
+
 //   }
 
 // }
@@ -671,7 +671,7 @@
 //   firstName: "Rahul",
 //   get fullName() {
 //    console.log(this.firstName);
-   
+
 //   }
 // };
 
@@ -681,14 +681,14 @@
 
 // const student = {
 //   firstName: "Rahul",
- 
+
 //   set fullName(v) {
 //     this.firstName = v;
 //     console.log(this.firstName);
-    
-    
-    
-    
+
+
+
+
 
 //   }
 // };
@@ -698,16 +698,16 @@
 
 // const student = {
 //   firstName:3,
- 
+
 //   set fullName(v) {
 //     if(v<0){
 //         console.log("negative value accept nhi he");
-        
+
 //     }else{
 //       this.firstName = v;
 //       console.log(this.firstName);
 //     }
-    
+
 //     }
 // };
 // student.fullName =2;
@@ -722,9 +722,9 @@
 // }
 //  for (const key in stud) {
 //  if (!Object.hasOwn(stud, key)) continue;
-    
+
 //    console.log(key);
-   
+
 //  }
 
 
@@ -736,7 +736,7 @@
 
 // }
 // for (const key in stud) {
-    
+
 // console.log(key,stud[key]);
 // }
 
@@ -746,7 +746,7 @@
 
 // for (const element of a) {
 //    console.log(element);
-    
+
 // }
 
 
@@ -781,11 +781,28 @@
 //     });
 // }
 
-let h3 = document.getElementsByTagName("h3");
-    for (let index = 0; index <=4; index++) {
-        h3[index].style.color = "red";
-        
-    };
+// let h3 = document.getElementsByTagName("h3");
+//     for (let index = 0; index <=4; index++) {
+//         h3[index].style.color = "red";
+
+//     };
+
+// let btn = document.querySelectorAll("button");
+// let mini = document.querySelectorAll("h4");
+// btn.addEventListener("click", function () {
+//     mini.style.color = "blue";
+//     mini.textContent = "Welcome to my world! we are happy to have you here.";
+// });
+
+// let button = document.querySelectorAll("h4");
+// for (let index = 0; index <=3; index++) {
+//    button[index].style.color = "yellow";
+// }
+
+ document.querySelectorAll(".min").forEach ( p => {
+    p.style.color = "green"
+
+});
 
 
 
